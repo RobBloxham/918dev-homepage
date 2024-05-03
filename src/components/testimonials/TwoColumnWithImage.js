@@ -101,7 +101,7 @@ export default () => {
     }
   ];
   return (
-    <Container>
+    <Container id="Customers">
       <Content>
         <HeadingInfoContainer>
           <HeadingTitle>Our Awesome Customers</HeadingTitle>

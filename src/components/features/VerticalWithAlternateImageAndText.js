@@ -74,7 +74,7 @@ export default () => {
   ];
 
   return (
-    <Container>
+    <Container id="Packages">
       <SingleColumn>
         <HeadingInfoContainer>
           <HeadingTitle>Packages</HeadingTitle>
