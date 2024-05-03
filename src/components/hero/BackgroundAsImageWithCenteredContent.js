@@ -42,13 +42,13 @@ export default () => {
         About
       </NavLink>
       <NavLink href="#">
-        Blog
+        Packages
       </NavLink>
       <NavLink href="#">
-        Locations
+        Customers
       </NavLink>
       <NavLink href="#">
-        Pricing
+        Contact Us
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
@@ -73,7 +73,7 @@ export default () => {
           <br />
           <br />
           <br />
-          <p style={{color: "white"}}>Photo by Tyler Layne</p>
+          <p style={{color: "white", fontSize: "12px"}}><a href="https://tylerlaynephotography.shootproof.com/">Photo by Tyler Layne</a></p>
         </Content>
       </HeroContainer>
     </Container>

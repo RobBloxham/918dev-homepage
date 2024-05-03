@@ -4,19 +4,19 @@ import "tailwindcss/lib/css/preflight.css";
 import AnimationRevealPage from "helpers/AnimationRevealPage";
 import Hero from "components/hero/BackgroundAsImageWithCenteredContent";
 import Features from "components/features/VerticalWithAlternateImageAndText.js";
-import Blog from "components/blogs/ThreeColSimpleWithImage.js";
+import About from "components/cards/ThreeColContactDetails.js";
 import Testimonial from "components/testimonials/TwoColumnWithImage.js";
-import ContactUsForm from "components/forms/SimpleContactUs.js";
 import Footer from "components/footers/FiveColumnWithBackground";
+import HubspotContactForm from "components/ContactForm/ContactForm";
 
 function App() {
   return (
     <AnimationRevealPage>
       <Hero />
+      <About />
       <Features />
-      <Blog />
       <Testimonial />
-      <ContactUsForm />
+      <HubspotContactForm />      
       <Footer />
     </AnimationRevealPage>
   );
