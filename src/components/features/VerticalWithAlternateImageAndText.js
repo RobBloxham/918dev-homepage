@@ -44,32 +44,30 @@ export default () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1550699026-4114bbf4fb49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
+      "https://i.ibb.co/8rRXr8H/spa.png",
       subtitle: "Simple",
       title: "Standard Landing Page",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+        "A single page website with multiple sections for information about your product/service or company. Just like our page that you are viewing right now!",
     },
 
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1543423924-b9f161af87e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "https://i.ibb.co/RjQQVQD/mpa.png",
       subtitle: "Advanced",
       title: "Multi-page Site",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+        "A multi-page website with a pages for each section of your site. This is great for people or companies that have a lot of information to share.",
     },
 
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1509824227185-9c5a01ceba0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80",
+      "https://i.ibb.co/ygf3Q70/fsa.png",
       subtitle: "Exclusive",
       title: "Custom WebApp",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+        "A custom built web app, with a back end for persisting data. Examples of this might be a business page that includes a blog, or a custom built e-commerce site.",
+      url: "https://i.ibb.co/m9qy7L5/fsa.png"
     }
   ];
 
@@ -77,9 +75,9 @@ export default () => {
     <Container id="Packages">
       <SingleColumn>
         <HeadingInfoContainer>
-          <HeadingTitle>Packages</HeadingTitle>
+          <HeadingTitle>Offerings</HeadingTitle>
           <HeadingDescription>
-            Here are some of the packages we offer.
+            Examples of what I offer.
           </HeadingDescription>
         </HeadingInfoContainer>
 

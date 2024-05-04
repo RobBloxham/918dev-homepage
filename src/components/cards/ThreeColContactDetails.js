@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-//eslint-disable-next-line
-import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 
@@ -49,38 +47,36 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "About Us", subheading = "", description = "Remote Web Developer located in Tulsa Oklahoma. You can reach by phone at (918) 631-7789 or via the contact form below." }) => {
-  /*
-   * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
-   *  1) title - the title of the card
-   *  2) description - the description of the card
-   *  If a key for a particular card is not provided, a default value is used
-   */
-
+export default ({ 
+    cards = null, 
+    heading = "About Me", 
+    subheading = "", 
+    description = "I am a passionate Full-Stack Web Developer located in Tulsa Oklahoma with over 15 years of experience in tech. The one constant thing about the tech industry is change. You can count on the fact that, as a life long learner, I will continue to stay up to date with the ever changing landscape of web development. Below is a small portion of the technology I use and why you should have your website custom built.",  
+  }) => {
   const defaultCards = [
     {
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      title: "Frontend",
+      description: "HTML, JavaScript, JQuerry, TypeScript, React"
     },
     { 
-      title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Styling & Design",
+      description: "CSS, Figma, Bootstrap, Tailwind CSS, Styled-Components, Twin Macro"
     },
     { 
-      title: "Reliable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Backend",
+      description: "Node, Express, Sanity, MongoDB, SQL, AWS."
     },
     { 
-      title: "Easy",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Support, Updates, & Maintenance",
+      description: "One point of contact for continued care of your website."
     },
     { 
-      title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Responsive",
+      description: "Your website is going to look just as great on a laptop or desktop computer as it is on a tablet or mobile phone."
     },
     { 
-      title: "Fast",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      title: "Custom Built",
+      description: "Built to your sepcifications without the limitations of a website builder or template."
     },
   ];
 
@@ -91,7 +87,7 @@ export default ({ cards = null, heading = "About Us", subheading = "", descripti
       <ThreeColumnContainer>
         {subheading && <Subheading>{subheading}</Subheading>}
         <Heading>{heading}</Heading>
-        {description && <Description>{description}</Description>}
+        {description && <Description>{description} </Description>}
         <VerticalSpacer />
         {cards.map((card, i) => (
           <Column key={i}>

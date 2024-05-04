@@ -1,8 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
-
 import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 
 const StyledHeader = styled(Header)`
@@ -42,14 +40,16 @@ export default () => {
         About
       </NavLink>
       <NavLink href="#Packages">
-        Packages
+        Offerings
       </NavLink>
       <NavLink href="#Customers">
         Customers
       </NavLink>
+      <NavLink></NavLink>
+      <NavLink></NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#Contact">
+      <PrimaryLink href="#Contact">
         Contact Us
       </PrimaryLink>
     </NavLinks>
@@ -66,7 +66,7 @@ export default () => {
               <br />
               Tulsa Oklahoma
           </Heading>
-          <PrimaryAction>Learn More</PrimaryAction>
+          <PrimaryLink href="#About">Learn More</PrimaryLink>
           <br />
           <br />
           <br />
