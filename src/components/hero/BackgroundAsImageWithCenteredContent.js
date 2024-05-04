@@ -6,7 +6,7 @@ import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, Na
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
   ${DesktopNavLinks} ${NavLink}, ${LogoLink} {
-    ${tw`text-gray-100 hover:border-gray-300 hover:text-gray-300`}
+    ${tw`text-tulsa hover:border-tulsa hover:text-tulsa`}
   }
   ${NavToggle}.closed {
     ${tw`text-gray-100 hover:text-primary-500`}
@@ -16,7 +16,7 @@ const StyledHeader = styled(Header)`
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
-  background-image: url(https://i.redd.it/7u2ltz4h2gl61.jpg);
+  background-image: url(https://i.ibb.co/4KspWRM/Screenshot-2024-05-04-160800.png);
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
@@ -66,11 +66,11 @@ export default () => {
               <br />
               Tulsa Oklahoma
           </Heading>
-          <PrimaryLink href="#About">Learn More</PrimaryLink>
+          <PrimaryLink style={{color: "#c71a2a"}} href="#About">Learn More</PrimaryLink>
           <br />
           <br />
           <br />
-          <p style={{color: "white", fontSize: "12px"}}><a href="https://tylerlaynephotography.shootproof.com/">Photo by Tyler Layne</a></p>
+          <p style={{color: "#ecaf1b", fontSize: "12px"}}><a href="https://tylerlaynephotography.shootproof.com/">Photo by Tyler Layne</a></p>
         </Content>
       </HeroContainer>
     </Container>

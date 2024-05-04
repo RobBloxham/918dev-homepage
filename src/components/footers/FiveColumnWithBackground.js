@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
-import LogoImage from "images/logo-png-light.png";
+import LogoImage from "images/tflogocolored.png";
 import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
@@ -57,13 +57,13 @@ export default () => {
           </LogoContainer>
           <CopywrightNotice>&copy; 2024 918Dev All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <SocialLink target="_blank" href="https://facebook.com/918dev">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
+            <SocialLink target="_blank" href="https://twitter.com/918_dev">
               <TwitterIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink target="_blank" href="https://www.youtube.com/channel/UCjeeE8yvOEab9fl8eyC9SiA">
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
