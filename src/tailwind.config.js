@@ -16,6 +16,7 @@ module.exports = {
       black: '#000',
       white: '#fff',
       tulsa: '#eab308',
+      tulsabg: '#f8f1e1',
 
       primary: {
         100: '#fee2e2',

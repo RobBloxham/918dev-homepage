@@ -61,6 +61,7 @@ export default () => {
       <HeroContainer>
         <StyledHeader links={navLinks} />
         <Content>
+          <Content /> 
           <Heading>
               Web Developer
               <br />
