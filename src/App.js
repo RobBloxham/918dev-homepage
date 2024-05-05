@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {Fragment, useEffect} from "react";
 import "style.css";
 import "tailwindcss/lib/css/preflight.css";
 import AnimationRevealPage from "helpers/AnimationRevealPage";
@@ -8,6 +8,7 @@ import About from "components/cards/ThreeColContactDetails.js";
 import Testimonial from "components/testimonials/TwoColumnWithImage.js";
 import Footer from "components/footers/FiveColumnWithBackground";
 import HubspotContactForm from "components/ContactForm/ContactForm";
+import Header from "components/Header/Header";
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
     document.body.appendChild(script);
   }, []);
   return (
+    <Fragment>
+    <Header />
     <AnimationRevealPage>
       <Hero />
       <About />
@@ -25,6 +28,7 @@ function App() {
       <HubspotContactForm />      
       <Footer />
     </AnimationRevealPage>
+    </Fragment>
   );
 } 
 

@@ -59,7 +59,6 @@ export default () => {
     <Container>
       <OpacityOverlay />
       <HeroContainer>
-        <StyledHeader links={navLinks} />
         <Content>
           <Content /> 
           <Heading>
@@ -67,7 +66,7 @@ export default () => {
               <br />
               Tulsa Oklahoma
           </Heading>
-          <PrimaryLink style={{color: "#c71a2a"}} href="#About">Learn More</PrimaryLink>
+          <PrimaryLink style={{color: "#ecaf1b"}} href="#About">Learn More</PrimaryLink>
           <br />
           <br />
           <br />
