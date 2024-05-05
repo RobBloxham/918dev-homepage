@@ -10,11 +10,10 @@ const StyledHeader = styled(Header)`
     ${tw`text-tulsa hover:border-tulsa hover:text-tulsa`}
   }
   ${NavToggle}.closed {
-    ${tw`text-gray-100 hover:text-primary-500`}
+    ${tw`text-tulsa hover:text-tulsa`}
   }
 `;
 
-const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 export default () => {
     const navLinks = [
       <NavLinks key={1}>
