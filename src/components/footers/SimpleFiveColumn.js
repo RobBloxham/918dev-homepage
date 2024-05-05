@@ -4,11 +4,11 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 import LogoImage from "../../images/tflogocolored.png";
-import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
+import { ReactComponent as FacebookIcon } from "../../images/facebook-icon2.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
 
-const Container = tw.div`relative bg-gray-200 -mx-8 -mb-8 px-8`;
+const Container = tw.div`relative bg-tulsared -mx-8 -mb-8 px-8`;
 const FiveColumns = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20 flex flex-wrap justify-between`;
 
 const Column = tw.div`md:w-1/5`;
@@ -28,7 +28,7 @@ const CompanyDescription = tw.p`mt-4 max-w-xs font-medium text-sm mx-auto md:mx-
 
 const SocialLinksContainer = tw.div`mt-4 `;
 const SocialLink = styled.a`
-  ${tw`cursor-pointer inline-block p-2 rounded-full bg-gray-700 text-gray-100 hover:bg-gray-900 transition duration-300 mr-4`}
+  ${tw`cursor-pointer inline-block p-2 rounded-full bg-tulsared text-tulsared hover:bg-tulsared transition duration-300 mr-4`}
   svg {
     ${tw`w-4 h-4`}
   }

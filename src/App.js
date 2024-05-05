@@ -6,7 +6,7 @@ import Hero from "components/hero/BackgroundAsImageWithCenteredContent";
 import Features from "components/features/VerticalWithAlternateImageAndText.js";
 import About from "components/cards/ThreeColContactDetails.js";
 import Testimonial from "components/testimonials/TwoColumnWithImage.js";
-import Footer from "components/footers/FiveColumnWithBackground";
+import Footer from "components/Footer/Footer.js";
 import HubspotContactForm from "components/ContactForm/ContactForm";
 import Header from "components/Header/Header";
 
@@ -25,8 +25,8 @@ function App() {
       <About />
       <Features />
       <Testimonial />
-      <HubspotContactForm />      
-      <Footer />
+      <HubspotContactForm />  
+      <Footer />    
     </AnimationRevealPage>
     </Fragment>
   );

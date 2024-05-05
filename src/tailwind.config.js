@@ -18,6 +18,8 @@ module.exports = {
       tulsa: '#eab308',
       tulsabg: '#f8f1e1',
       tulsablue: "#8b98c4",
+      tulsared: "#c71a2a",
+      newblue: "#001a29",
 
       primary: {
         100: '#fee2e2',
