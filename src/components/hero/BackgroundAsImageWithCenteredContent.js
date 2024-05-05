@@ -1,17 +1,8 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
+import { PrimaryLink as PrimaryLinkBase } from "../headers/light.js";
 
-const StyledHeader = styled(Header)`
-  ${tw`pt-8 max-w-none w-full`}
-  ${DesktopNavLinks} ${NavLink}, ${LogoLink} {
-    ${tw`text-tulsa hover:border-tulsa hover:text-tulsa`}
-  }
-  ${NavToggle}.closed {
-    ${tw`text-gray-100 hover:text-primary-500`}
-  }
-`;
 
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 const Container = styled.div`
@@ -31,30 +22,8 @@ const Heading = styled.h1`
   }
 `;
 
-const PrimaryAction = tw.button`rounded-full px-8 py-3 mt-10 text-sm sm:text-base sm:mt-16 sm:px-8 sm:py-4 bg-gray-100 font-bold shadow transition duration-300 bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:outline-none focus:shadow-outline`;
 
 export default () => {
-  const navLinks = [
-    <NavLinks key={1}>
-      <NavLink href="#About">
-        About
-      </NavLink>
-      <NavLink href="#Packages">
-        Offerings
-      </NavLink>
-      <NavLink href="#Customers">
-        Customers
-      </NavLink>
-      <NavLink></NavLink>
-      <NavLink></NavLink>
-    </NavLinks>,
-    <NavLinks key={2}>
-      <PrimaryLink href="#Contact">
-        Contact Us
-      </PrimaryLink>
-    </NavLinks>
-  ];
-
   return (
     <Container>
       <OpacityOverlay />
@@ -69,8 +38,12 @@ export default () => {
           <PrimaryLink style={{color: "#ecaf1b"}} href="#About">Learn More</PrimaryLink>
           <br />
           <br />
-          <br />
           <p style={{color: "#ecaf1b", fontSize: "12px"}}><a href="https://tylerlaynephotography.shootproof.com/">Photo by Tyler Layne</a></p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </Content>
       </HeroContainer>
     </Container>
