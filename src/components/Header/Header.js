@@ -31,9 +31,9 @@ export default () => {
         <NavLink></NavLink>
       </NavLinks>,
       <NavLinks key={2}>
-        <PrimaryLink href="#Contact">
+        <NavLink href="#Contact">
           Contact Us
-        </PrimaryLink>
+        </NavLink>
       </NavLinks>
     ];
   return (
