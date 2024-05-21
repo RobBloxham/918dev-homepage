@@ -47,7 +47,7 @@ export default () => {
           </LogoContainer>
           <CopywrightNotice>&copy; 2024 918Dev All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
-            <SocialLink target="_blank" href="https://facebook.com/918dev">
+            <SocialLink target="_blank" href="https://www.facebook.com/profile.php?id=61558975354894">
               <FacebookIcon />
             </SocialLink>
             <SocialLink target="_blank" href="https://twitter.com/918_dev">
